@@ -33,5 +33,3 @@ set LPORT 4444
 exploit -j
 ```
 - - -
-
-test
