@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Github Blog 세팅 (jekyll, bundle, chirpy)"
+title: "[Github Blog] 2. Github Blog 세팅 (jekyll, bundle, chirpy)"
+date: 2025-04-01 9:00:00 +/-TTTT
 categories: [Github Blog]
 tags: [manual]
 ---

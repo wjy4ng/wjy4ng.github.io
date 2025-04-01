@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Github Blog 구동과 Git 업로드"
+title: "[Github Blog] 1. Git 기본 구조 및 명령어"
+date: 2025-04-01 08:00:00 +/-TTTT
 categories: [Github Blog]
 tags: [MarkDown]
 ---

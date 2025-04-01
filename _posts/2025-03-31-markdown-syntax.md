@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "MarkDown 파일 작성하기"
-date: 2025-04-01 10:00:00 +/-TTTT
+title:  "[Github Blog] 4. MarkDown 파일 작성하기"
+date: 2025-04-01 11:00:00 +/-TTTT
 categories: [Github Blog]
 tags: [MarkDown]
 toc: true

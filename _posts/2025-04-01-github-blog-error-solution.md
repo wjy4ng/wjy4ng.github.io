@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "[Github Blog] ---layout: home # Index page --- 오류 해결방법"
+title: "[Github Blog] 3. ---layout: home # Index page --- 오류 해결방법"
+date: 2025-04-01 10:00:00 +/-TTTT
 categories: [Github Blog]
 tags: [error]
 ---
