@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
 
 # 📌 결과 화면
 <p align="center">
-  <img src="../img/main_tab_1.png" align="center" width="32%">
-  <img src="../img/main_tab_2.png" align="center" width="32%">
-  <img src="../img/main_tab_3.png" align="center" width="32%">
+  <img src="https://github.com/user-attachments/assets/0e4663a0-af02-4c06-9831-3039083e5c56" align="center" width="32%">
+  <img src="https://github.com/user-attachments/assets/fbe4b2d0-5f7f-49f3-8cc0-993bc0e9306f" align="center" width="32%">
+  <img src="https://github.com/user-attachments/assets/392124d2-dfc2-4ca0-8189-7e723cdab8a6" align="center" width="32%">
 </p>
