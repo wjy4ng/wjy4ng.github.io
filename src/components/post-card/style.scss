@@ -15,8 +15,9 @@
     max-width: $content-max-width;
     border: 1px solid var(--post-card-border-color);
     border-radius: 6px;
-    padding: 15px;
     margin-bottom: 15px;
+    overflow: hidden;
+    padding: 3px;
 
     color: var(--primary-text-color);
 
@@ -33,11 +34,32 @@
       margin-bottom: 0;
     }
 
+    .post-card-image {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .post-card-content {
+      padding: 15px;
+      padding-top: 15px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
     .title {
       font-size: 18px;
       font-weight: 600;
-      margin-bottom: 7px;
+      margin-bottom: 15px;
       line-height: 1.4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
     }
 
     .description {

@@ -1,3 +1,5 @@
+@use '../../styles/mixins'as *;
+
 .post-card-column-wrapper {
   display: flex;
   flex-direction: column;
@@ -16,8 +18,16 @@
     gap: 20px;
 
     .post-card-wrapper {
-      width: calc((100% - 40px) / 3);
+      width: 100%; /* Default to 1 column for small screens */
       height: 250px; /* Adjust as needed */
+
+      @include md {
+        width: calc((100% - 20px) / 2); /* 2 columns for medium screens */
+      }
+
+      @include lg {
+        width: calc((100% - 40px) / 3); /* 3 columns for large screens */
+      }
     }
   }
 }

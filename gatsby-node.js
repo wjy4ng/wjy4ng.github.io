@@ -72,6 +72,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               categories
               title
               date(formatString: "MMMM DD, YYYY")
+              image {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
             }
           }
           next {

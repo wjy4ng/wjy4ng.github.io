@@ -5,6 +5,7 @@ date: '2025-04-02 19:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: android
+image: "./main_tab_2.png"
 ---
 ## 📌 sqlite3 데이터베이스 구축 방법
 > 앞으로 안드로이드 스튜디오에서 DBHelper를 활용해 계정 정보를 아래 DB로 가져올 예정이다.

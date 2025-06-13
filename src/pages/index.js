@@ -43,6 +43,11 @@ export const pageQuery = graphql`
             categories
             title
             date(formatString: "MMMM DD, YYYY")
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
           }
           fields {
             slug
