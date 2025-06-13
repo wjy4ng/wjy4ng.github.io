@@ -10,7 +10,11 @@ function PostCard({ post }) {
   return (
     <div className="post-card-wrapper">
       <Link className="post-card" key={id} to={slug}>
-        {postImage && <GatsbyImage className="post-card-image" image={postImage} alt={title} />}
+        {postImage ? (
+          <GatsbyImage className="post-card-image" image={postImage} alt={title} />
+        ) : (
+          <div className="post-card-image-placeholder" />
+        )}
         <div className="post-card-content">
           <div className="title">{title}</div>
           <div className="info">
