@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 🤖
 title: 1. Android Studio로 로그인/회원가입 구현 (SQLite)
 date: '2025-04-02 19:00:00'
 author: 양원준

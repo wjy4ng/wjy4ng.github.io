@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 📝
 title: 1. Markdown 파일 작성하기
 date: '2025-04-01 11:00:00'
 author: 양원준

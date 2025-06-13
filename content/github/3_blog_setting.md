@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 📝
 title: 3. Github Blog 세팅
 date: '2025-04-03 09:00:00'
 author: 양원준

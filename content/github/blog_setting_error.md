@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 📝
 title: "---layout: home # Index page --- 오류 해결방법"
 date: '2025-04-04 10:00:00'
 author: 양원준
