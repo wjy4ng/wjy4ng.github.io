@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://wjy4ng.github.io/sitemap/sitemap-index.xml
+Host: https://wjy4ng.github.io
