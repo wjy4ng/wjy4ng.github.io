@@ -8,7 +8,7 @@ function PostCard({ post }) {
     <div className="post-card-wrapper">
       <Link className="post-card" key={id} to={slug}>
         <div className="title">{title}</div>
-        <p className="description" dangerouslySetInnerHTML={{ __html: excerpt }} />
+        {/* <p className="description" dangerouslySetInnerHTML={{ __html: excerpt }} /> */}
         <div className="info">
           <div className="date">{date}</div>
           <div className="categories">

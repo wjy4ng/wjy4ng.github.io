@@ -3,7 +3,7 @@ import { Tabs, Tab } from '@mui/material';
 import PostCardColumn from '../post-card-column';
 import './style.scss';
 
-function PostTabs({ tabIndex, onChange, tabs, posts, showMoreButton }) {
+function PostTabs({ tabIndex, onChange, tabs, posts }) {
   const tabPosts = useMemo(() => {
     if (tabs[tabIndex] === 'All') return posts;
     return posts.filter((post) => post.categories.includes(tabs[tabIndex]));
@@ -25,9 +25,7 @@ function PostTabs({ tabIndex, onChange, tabs, posts, showMoreButton }) {
         </Tabs>
       </div>
       <PostCardColumn
-        posts={showMoreButton ? tabPosts.slice(0, 4) : tabPosts}
-        showMoreButton={showMoreButton && tabPosts.length > 4}
-        moreUrl={`posts/${tabIndex === 0 ? '' : tabs[tabIndex]}`}
+        posts={tabPosts}
       />
     </div>
   );
