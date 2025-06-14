@@ -164,11 +164,10 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## 📌 결과 화면
-<p align="center">
-  <img src="main_tab_1.png" align="center" width="32%">
-  <img src="main_tab_2.png" align="center" width="32%">
-  <img src="main_tab_3.png" align="center" width="32%">
-</p>
+
+![img1](./main_tab_1.png)
+![img2](./main_tab_2.png)
+![img3](./main_tab_3.png)
 
 ```toc
 ```
