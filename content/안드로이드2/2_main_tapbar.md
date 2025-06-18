@@ -5,6 +5,7 @@ date: '2025-04-04 15:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: android
+image: "./Android_img.jpg"
 ---
 
 ## 📌 TabLayout, ViewPager2 란?
@@ -164,10 +165,12 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## 📌 결과 화면
+<div class="center" style="display: flex; justify-content: center; align-items: center; gap: 16px;">
+    <img src="./main_tab_1.png" style="max-width: 45%; height: auto;">
+    <img src="./main_tab_2.png" style="max-width: 45%; height: auto;">
+    <img src="./main_tab_3.png" style="max-width: 45%; height: auto;">
+</div>
 
-![img1](./main_tab_1.png)
-![img2](./main_tab_2.png)
-![img3](./main_tab_3.png)
 
 ```toc
 ```
