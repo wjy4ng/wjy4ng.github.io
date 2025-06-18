@@ -10,15 +10,33 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 const createBlogPages = ({ createPage, results }) => {
   const blogPostTemplate = require.resolve(`./src/templates/blog-template.js`);
-  results.data.allMarkdownRemark.edges.forEach(({ node, next, previous }) => {
+  const edges = results.data.allMarkdownRemark.edges;
+
+  // 1. 대표 카테고리별로 글을 그룹화
+  const categoryMap = {};
+  edges.forEach(({ node }) => {
+    const categories = node.frontmatter.categories.split(' ');
+    const mainCategory = categories[0];
+    if (!categoryMap[mainCategory]) categoryMap[mainCategory] = [];
+    categoryMap[mainCategory].push(node);
+  });
+
+  // 2. 각 글에 대해 대표 카테고리 기준으로 이전/다음 글 연결
+  edges.forEach(({ node }) => {
+    const categories = node.frontmatter.categories.split(' ');
+    const mainCategory = categories[0];
+    const postsInCategory = categoryMap[mainCategory];
+    const idx = postsInCategory.findIndex(n => n.fields.slug === node.fields.slug);
+    const prev = idx > 0 ? postsInCategory[idx - 1] : null;
+    const next = idx < postsInCategory.length - 1 ? postsInCategory[idx + 1] : null;
+
     createPage({
       path: node.fields.slug,
       component: blogPostTemplate,
       context: {
-        // additional data can be passed via context
         slug: node.fields.slug,
         nextSlug: next?.fields.slug ?? '',
-        prevSlug: previous?.fields.slug ?? '',
+        prevSlug: prev?.fields.slug ?? '',
       },
     });
   });
