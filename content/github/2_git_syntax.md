@@ -5,6 +5,7 @@ date: '2025-04-02 08:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: github
+image: "./github_img.png"
 ---
 
 ## 📌 Github 구조

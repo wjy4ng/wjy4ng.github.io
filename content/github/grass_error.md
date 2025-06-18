@@ -5,6 +5,7 @@ date: '2025-06-09 12:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: github
+image: "./grass_img.png"
 ---
 
 ## 1. 로그 및 계정 확인

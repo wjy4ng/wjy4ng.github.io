@@ -5,6 +5,7 @@ date: '2025-04-03 09:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: github
+image: "./github_img.png"
 ---
 
 ## 📌 깃허브 블로그 웹 호스팅
