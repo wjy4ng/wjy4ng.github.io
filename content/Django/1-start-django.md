@@ -45,7 +45,7 @@ cd proj01
 python3 manage.py runserver
 ```
 
-## 📌 4. Django 파일 구조
+## 📌 Django 파일 구조
 ```bash
 proj01/
 	manage.py
