@@ -5,7 +5,7 @@ date: '2025-04-02 19:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: android
-image: "./Android_img.jpg"
+image: "./img/Android_img.jpg"
 ---
 ## 📌 sqlite3 데이터베이스 구축 방법
 > 앞으로 안드로이드 스튜디오에서 DBHelper를 활용해 계정 정보를 아래 DB로 가져올 예정이다.
@@ -208,8 +208,8 @@ public class LoginActivity extends AppCompatActivity {
 
 ## 📌 결과 화면
 <div class="center" style="display: flex; justify-content: center; align-items: center; gap: 16px;">
-    <img src="./login.png" style="max-width: 45%; height: auto;">
-    <img src="./signup.png" style="max-width: 45%; height: auto;">
+    <img src="./img/login.png" style="max-width: 45%; height: auto;">
+    <img src="./img/signup.png" style="max-width: 45%; height: auto;">
 </div>
 
 ## 📌 계정 정보 확인
