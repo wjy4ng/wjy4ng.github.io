@@ -5,7 +5,7 @@ date: '2025-04-01 11:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: github
-image: "./markdown_img.jpg"
+image: "./img/markdown_img.jpg"
 ---
 
 ## 📌 속성 설정

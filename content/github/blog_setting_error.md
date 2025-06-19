@@ -5,7 +5,7 @@ date: '2025-04-04 10:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: github
-image: "./error.png"
+image: "./img/error.png"
 ---
 
 ## 📌 문제상황

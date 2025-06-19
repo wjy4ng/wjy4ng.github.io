@@ -5,14 +5,14 @@ date: '2025-06-18 22:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: 회고
-image: "title_img.png"
+image: "./img/title_img.png"
 ---
 
 ## 📌 1. 개요
 2025년 정보처리기사를 합격했습니다 🎉🎉
 
-![정처기_필기_합격](./정처기_필기_합격.png)
-![정처기_실기_합격](./정처기_실기_합격.png)
+![정처기_필기_합격](./img/정처기_필기_합격.png)
+![정처기_실기_합격](./img/정처기_실기_합격.png)
 
 
 우선 제 베이스는

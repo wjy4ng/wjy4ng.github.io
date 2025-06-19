@@ -5,7 +5,7 @@ date: '2025-06-19 20:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
 categories: backend
-image: "./img/django_img.jpg"
+image: "./img/django_img.png"
 ---
 
 ## 📌 파이썬 설치
