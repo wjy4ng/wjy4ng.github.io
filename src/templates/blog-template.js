@@ -7,7 +7,6 @@ import PostNavigator from '../components/post-navigator';
 import Post from '../models/post';
 import PostContent from '../components/post-content';
 import Utterances from '../components/utterances';
-import PostViewCounter from '../components/post-view-counter';
 
 function BlogTemplate({ data }) {
   const curPost = new Post(data.cur);
@@ -21,7 +20,6 @@ function BlogTemplate({ data }) {
       <Seo title={curPost?.title} description={curPost?.excerpt} />
       <PostHeader post={curPost} />
       <PostContent html={curPost.html} />
-      <PostViewCounter slug={curPost.slug} />
       <PostNavigator prevPost={prevPost} nextPost={nextPost} />
       {utterancesRepo && <Utterances repo={utterancesRepo} path={curPost.slug} />}
     </Layout>
