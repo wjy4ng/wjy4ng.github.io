@@ -21,7 +21,7 @@ TOTP를 사용하는 이유는 다음과 같다.
 ## 📌 구현 방법
 구현 방법은 `TOTP 라이브러리`를 사용하는 방식과 `수동 구현` 방식이 있다.<br>사용 IDE는 Android Studio이고, 사용 언어는 Java이다.
 
-## 📌 1. TOTP 라이브러리를 사용하는 방식
+### 1. TOTP 라이브러리를 사용하는 방식
 안드로이드에서 TOTP 라이브러리는 samstevens의 `DefaultCodeGenerator`를 사용한다. 이는 `HMAC-SHA1` 알고리즘을 사용한다.
 
 ```java
@@ -43,7 +43,7 @@ public static String getCurrentTOTP(String secret){
 }
 ```
 
-## 📌 2. 수동으로 구현하는 방식
+### 2. 수동으로 구현하는 방식
 다음은 수동으로 구현하는 방법이다. 구현을 위해서 필요한 라이브러리는 다음과 같다.
 - Base32
 - ByteBuffer
