@@ -4,7 +4,7 @@ title: Rufus로 ISO 이미지 굽기
 date: '2025-07-05 18:01:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
-categories: Ubuntu
+categories: Linux
 image: "./img/rufus_thumbnail.png"
 ---
 

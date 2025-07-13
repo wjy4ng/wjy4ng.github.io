@@ -4,7 +4,7 @@ title: 맥북으로 홈 서버에 SSH 접속하기
 date: '2025-07-05 18:02:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
-categories: Ubuntu
+categories: Linux
 image: "./img/ssh_thumbnail.png"
 ---
 

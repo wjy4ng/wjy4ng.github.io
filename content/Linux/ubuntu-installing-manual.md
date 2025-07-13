@@ -4,7 +4,7 @@ title: Ubuntu Server 설치 및 기본 세팅
 date: '2025-07-05 18:00:00'
 author: 양원준
 tags: 블로그 github-pages gatsby
-categories: Ubuntu
+categories: Linux
 image: "./img/ubuntu_thumbnail.png"
 ---
 
